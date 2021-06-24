@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+body{
+  
+    font-family: "Lato"!important ;
+    line-height: 1.5;
+    letter-spacing: 1.5px;
+}
+
+/*************HEADER**********************/
+.header{
+    height: 90px;
+}
+.link{
+    left:300px;
+    
+}
+.link a{
+    color:rgb(92, 87, 87)
+}
+.link a:hover{
+    color:rgb(20, 19, 19);
+   
+}
+
+.logo-section{
+    right: 1rem;  
+  }
+.logo{
+    
+  
+    font-size: 2.5rem !important;
+   font-weight: 300 !important;
+    
+
+}
+
+
+#menu-bar{
+    position: absolute;
+  right: 0;
+    top: 20px;
+    font-size: 2rem;
+}
+
+
+
+/*****************HERO SECTION********************/
+#hero-section{
+    background-image: url(../img/hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height:400px
+}
+.green{
+    
+    width: 400px;
+    height: 50px;
+    background: rgb(101, 160, 101);
+   padding: 1px;
+  position: absolute;
+   top:160px;
+   left:310px;
+  
+}
+@media (max-width: 900px) {
+    #hero-section{
+        width: 100%;
+    }
+    .green{
+        left:120px
+    }
+}
+@media screen and (min-width: 750px) and (max-width: 999px) {
+   
+    #hero-section {
+        width: 100%;
+        height: 250px;
+
+    }}
+    @media screen and (min-width: 30px) and (max-width: 750px) {
+   .green{
+       position:relative;
+      left: 0;
+      top: 45px;
+      
+     
+   }
+        #hero-section {
+            width: 100%;
+            height: 150px;
+    
+        }
+    }
+
+/********************INTRO-SECTION***************************/
+
+
+/*************************ABOUT-SECTION*************************/
+.section{
+right: 20px; 
+}
+/************************LAST-SECTION*********************/
+.last-section{
+    background: rgb(59, 57, 57);
+   
+}
+/**************FOOTER*****************/
+.footer{
+    background: black;
+    
+}
+/*************MOBILE-MENU**********************/
+#mobile-menu{
+    position: fixed;
+    top:0;
+    bottom: 0;
+    left:0;
+    right: 0;
+   background: #507268ed;
+   z-index: 2;
+   display: none;
+}
+#mobile-menu a{
+    color:blanchedalmond;
+    
+}
+#mobile-menu a:hover{
+    color:silver ;
+}
+#close{
+    font-size: 1.3rem;
+  position:absolute;
+  top: 21px;
+  right: 12px;
+  color: white
+  
+;}
+
